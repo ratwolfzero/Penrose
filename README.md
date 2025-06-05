@@ -19,7 +19,8 @@ These tilings became important in **mathematics**, **physics**, and **crystallog
 
 -----
 
-##📐 Triangle-Based Subdivision Tiling  
+## 📐 Triangle-Based Subdivision Tiling  
+
 This version generates Penrose tilings using **iterative subdivision** of thin (acute) and thick (obtuse) **golden triangles**, based on Robinson’s decomposition.  
 
 ### Key Characteristics  
