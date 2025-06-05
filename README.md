@@ -45,5 +45,13 @@ This version of the program generates Penrose tilings using **iterative subdivis
 * **Recursion Depth Control:** Set recursion depth (3–6 recommended).
 * **Export Options:** Save the resulting tiling as `.png` or `.svg`.
 
+### Usage  
+
+Upon running, you’ll be prompted to:  
+
+1. Enter recursion depth (e.g., 4).  
+2. Select a color mode (`mono`/`type`/`color`).  
+3. Optionally save the output (e.g., `tiling.png`). 
+
 
 📝 This version offers a cleaner geometric representation and is particularly useful for studying the underlying substitution logic of Penrose tilings without the visual clutter of explicit matching rule enforcement.
