@@ -19,33 +19,31 @@ These tilings became important in **mathematics**, **physics**, and **crystallog
 
 -----
 
-## 📐 Alternative: Recursive Triangle Tiling
+##📐 Triangle-Based Subdivision Tiling  
+This version generates Penrose tilings using **iterative subdivision** of thin (acute) and thick (obtuse) **golden triangles**, based on Robinson’s decomposition.  
 
-This optional version of the program generates Penrose tilings using **recursive subdivision** of thin and thick **golden triangles**, based on Robinson’s decomposition. It produces equivalent aperiodic tilings without relying on traditional matching rules or arcs. Instead, each triangle recursively subdivides into new triangles according to Penrose's substitution rules.
+### Key Characteristics  
 
-### Key Characteristics
+* **Fixed Initial Pattern:** Uses a 10-triangle star configuration (no user-selectable seed).  
+* **Triangle-Based Only:** Generates tilings exclusively from acute/obtuse triangles.  
+* **Iterative Subdivision:** Uses stack-based iteration (avoiding recursion limits) while preserving Penrose’s rules.  
+* **Implicit Matching Rules:** No decorative arcs needed; aperiodicity is inherent in the subdivision logic.  
 
-* **Single Initial Pattern:** No seed selection; a consistent starting pattern is used.
-* **Triangle-Based Only:** Generates tilings exclusively from thin and thick triangles, omitting kites or darts.
-* **Simplified Recursive Logic:** Ideal for exploring self-similarity due to its straightforward subdivision process.
-* **Implicit Matching Rules:** No decorative arcs are rendered, as matching rules are inherent in the recursive logic.
+### Features  
 
-### Features
+* **Color Modes:**  
+  * **Mono (Grayscale):** Renders all triangles uniformly.  
+  * **By Type:** Colors acute/obtuse triangles differently.  
+  * **By Orientation:** Colors by rotational alignment (reveals 5-fold symmetry).  
+* **Recursion Depth Control:** Adjust detail level (3–6 recommended for balance).  
+* **Export Options:** Save as PNG/SVG.  
 
-* **Color Modes:**
-  * **By Type:** Distinguishes between the two fundamental triangle shapes – the **acute** and **obtuse** golden triangles – with different colors.
-  * **By Orientation:** Colors triangles based on their rotational alignment, revealing hidden symmetries and patterns within the tiling.
-* **Recursion Depth Control:** Adjust the level of detail for the tiling.
-* **Export Options:** Save generated tilings as PNG or SVG files.
+### Usage  
 
-### Usage
+Upon running, you’ll be prompted to:  
 
-Upon running this version, you'll be prompted to:
-
-* Choose the desired recursion depth.
-* Select a color mode.
-* Optionally save the output.
+1. Enter recursion depth (e.g., 4).  
+2. Select a color mode (`mono`/`type`/`color`).  
+3. Optionally save the output (e.g., `tiling.png`).  
 
 📝 This version offers a cleaner geometric representation and is particularly useful for studying the underlying substitution logic of Penrose tilings without the visual clutter of explicit matching rule enforcement.
-
------
