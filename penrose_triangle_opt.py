@@ -88,7 +88,7 @@ def get_tile_orientation_index(tile):
 
 def plot_triangle_tiling(tiles, output_filename=None, color_mode='color'):
     """Optimized plotting using PolyCollection"""
-    fig, ax = plt.subplots(figsize=(10, 10))
+    fig, ax = plt.subplots(figsize=(8, 8))
 
     # Color definitions
     acute_color = np.array([1, 0.6, 0.2], dtype=np.float32)
